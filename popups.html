@@ -1,0 +1,50 @@
+<div id="popup" class="popup">
+	<div class="popup__body">
+		<div class="popup__content popup__content_form">
+			<a href="#" class="popup__close close-popup"></a>
+			<form action="#" method="get" class="popup-form form">
+				<h3 class="popup-form__title section-title">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</h3>
+				<div class="popup-form__row">
+					<label for="name" class="popup-form__label form-label">Имя*</label>
+					<input id="name" type="text" data-error="Это поле обязательно для заполнения" data-required class="popup-form__input form-input" name="name" placeholder="Иван">
+				</div>
+				<div class="popup-form__row">
+					<label for="phone" class="popup-form__label form-label">Телефон*</label>
+					<input id="phone" type="tel" data-error="Это поле обязательно для заполнения" data-required="phone" class="popup-form__input form-input" name="phone" placeholder="+7 (000) 000 00 00">
+				</div>
+				<div class="popup-form__text">* - поля, обязательные для заполнения</div>
+				<button type="submit" class="popup-form__btn button button_bg">ОТПРАВИТЬ ЗАЯВКУ</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="login" class="popup">
+	<div class="popup__body">
+		<div class="popup__content popup__content_form">
+			<a href="#" class="popup__close close-popup"></a>
+			<form action="#" method="get" class="popup-form form">
+				<h3 class="popup-form__title popup-form__title_cnt section-title">ВХОД</h3>
+				<div class="popup-form__row">
+					<label for="email" class="popup-form__label form-label">Телефон*</label>
+					<input id="email" type="tel" autocomplete="off" class="popup-form__input form-input" data-error="Это поле обязательно для заполнения" data-required="phone" name="form[]" placeholder="+7 (000) 000 00 00">
+				</div>
+				<div class="popup-form__row">
+					<label for="password" class="popup-form__label form-label">Пароль*</label>
+					<div class="popup-form__input-password">
+						<input id="password" type="password" autocomplete="off" class="popup-form__input form-input" data-error="Please enter at least 8 characters" data-required="min-length:8" name="password" placeholder="**********">
+						<button type="button" class="popup-form__input-show"></button>
+					</div>
+				</div>
+				<a href="#" class="popup-form__link">Забыли пароль?</a>
+				<div class="popup-form__row popup-form__row_actions">
+					<div class="popup-form__actions actions-popup">
+						<span class="actions-popup__label">Авторизоваться через</span>
+						<a href="#" class="actions-popup__link actions-popup__link_google"></a>
+						<a href="#" class="actions-popup__link actions-popup__link_facebook"></a>
+					</div>
+				</div>
+				<button type="submit" class="popup-form__btn popup-form__btn_fw button button_bg">ВОЙТИ</button>
+			</form>
+		</div>
+	</div>
+</div>

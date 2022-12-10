@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221210150038">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221210150038" />
+	<title>АркоМебель</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__wrapper">
+		<div class="header__container">
+			<div class="header__top">
+				<div class="header__cities header-cities">
+					<div class="header-cities__current _icon-location">Ростов</div>
+					<ul class="header-cities__available">
+						<li class="header-cities__item">
+							<a href="" class="header-cities__link">Ростов</a>
+						</li>
+						<li class="header-cities__item">
+							<a href="" class="header-cities__link">Херсон</a>
+						</li>
+						<li class="header-cities__item">
+							<a href="" class="header-cities__link">Київ</a>
+						</li>
+						<li class="header-cities__item">
+							<a href="" class="header-cities__link">Краснодар</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<div class="menu__box">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Акции</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Сборка</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Доставка</a></li>
+							</ul>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Наши работы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="header__middle">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<a href="" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.jpg" alt="Logo_of_site"></picture></a>
+				<div class="header__location location-header">
+					<div class="location-header__street" data-da=".header-cities__current,1200,1">
+						ул. Московская, 144 корп. - 1
+					</div>
+					<a href="" class="location-header__map">Схема проезда</a>
+				</div>
+				<form action="" method="get" class="header__search header-search">
+					<div class="header-search__wrapper">
+						<input type="text" name="search-header" placeholder="Поиск">
+						<button type="submit" class="_icon-search"></button>
+					</div>
+					<button type="button" class="header-search__mobile _icon-search"></button>
+				</form>
+				<div class="header__phone phone-header">
+					<a href="tel:89615259191" class="phone-header__tel _icon-phone" data-da=".menu__box,767,1">8
+						(961) 525 91 91</a>
+					<a href="tel:89615259191" class="phone-header__tel phone-header__tel_mobile _icon-phone"></a>
+					<a href="#popup" data-popup-link type="button" class="phone-header__ordercall" data-da=".menu__box,991,0">
+						Заказать <span>обратный</span> звонок
+					</a>
+				</div>
+				<div class="header__actions action-header">
+					<a href="#login" data-popup-link class="action-header__login _icon-user" data-da=".menu__box,700,last">
+						<span>Войти</span>
+					</a>
+					<a href="" class="action-header__favorite _icon-favorite" data-da=".menu__box,991,1">
+						<div>Избранное<span>2</span></div>
+					</a>
+					<a href="cart.html" class="action-header__cart _icon-shopping-cart"><span>Корзина</span>
+						<div class="action-header__quantity">1</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__footer footer-header">
+			<div class="footer-header__container">
+				<ul class="footer-header__categories" data-da=".menu__box,991,0">
+					<li class="footer-header__category">
+						<a href="category.html" class="footer-header__link _icon-kithen"><span>КУХНИ</span></a>
+						<ul class="footer-header__subcategory subcategory-header">
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Модульные кухни</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Готовые комплекты</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Маленькие кухни</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Угловые кухни</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Кухонные уголки</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Столы кухонные</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Стулья для кухни</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Комплектующие</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-header__category">
+						<a href="" class="footer-header__link _icon-living-room"><span>ГОСТИННЫЕ</span></a>
+					</li>
+					<li class="footer-header__category">
+						<a href="" class="footer-header__link _icon-bed-room"><span>СПАЛЬНИ</span></a>
+					</li>
+					<li class="footer-header__category">
+						<a href="" class="footer-header__link _icon-triple-waredrope"><span>ПРИХОЖИЕ</span></a>
+						<ul class="footer-header__subcategory subcategory-header">
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Модульные</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Обувницы</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-header__category">
+						<a href="" class="footer-header__link _icon-cupboard-cabinet-storage-furniture">
+							<span>ШКАФЫ-КУПЕ</span>
+						</a>
+					</li>
+					<li class="footer-header__category">
+						<a href="" class="footer-header__link _icon-bunk-bed"><span>ДЕТСКИЕ</span></a>
+						<ul class="footer-header__subcategory subcategory-header">
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Кровати</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Полки</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Столы</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Тумбы</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Шкафы</a>
+							</li>
+							<li class="subcategory-header__item">
+								<a href="" class="subcategory-header__link">Комоды</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-header__category">
+						<a href="" class="footer-header__link _icon-double-sofa"><span>ДИВАНЫ</spa></a>
+					</li>
+				</ul>
+				<a href="" class="footer-header__wherelook _icon-map" data-da=".header__location,1200,0"><span>ГДЕ ПОСМОТРЕТЬ</span></a>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<div class="breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item"><a href="/" class="breadcrumbs__link">Головна</a></li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__link breadcrumbs__link_current">О нас</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<section class="page__about-us about-us">
+				<div class=" about-us__container">
+					<h3 class="about-us__title section-title">О НАС</h3>
+					<div class="about-us__block block-about-us">
+						<div class="block-about-us__column block-about-us__column_text">
+							<h1 class="block-about-us__title">Добро пожаловать в магазин Арко Мебель!</h1>
+							<div class="block-about-us__text">
+								<p>Мы являемся прямыми поставщиками более чем тридцати фабрик РФ.
+									Наша компания уже более 5 лет успешно занимается продажей кухонной и корпусной мебели, вернее даже будет сказать что в первую очередь мы не продаем, а стараемся помочь нашим клиентам с выбором.</p>
+							</div>
+						</div>
+						<div class="block-about-us__column">
+							<div class="block-about-us__image">
+								<picture><source srcset="img/about-us/01.webp" type="image/webp"><img src="img/about-us/01.png" alt="about-us"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="about-us__block block-about-us">
+						<div class="block-about-us__column">
+							<div class="block-about-us__image block-about-us__image_decor1">
+								<div class="block-about-us__image-item block-about-us__image-item_1">
+									<picture><source srcset="img/about-us/handyman-using-electric-drill-making-furniture-ass.webp" type="image/webp"><img src="img/about-us/handyman-using-electric-drill-making-furniture-ass.jpg" alt="about-us"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="block-about-us__column block-about-us__column_text1">
+							<div class="block-about-us__text">
+								<p>Политика компании - это максимальная клиентоориентированность, в любой спорной ситуации, которые бывают редко, но как и у всех бывают, мы всегда принимаем сторону клиента и даже когда фабрика не идет
+									к нам на встречу мы решаем вопросы самостоятельно за свой счет. По этой, а так же по множеству других причин наши клиенты возвращаются к нам снова.
+								</p>
+								<p>Мы гордимся тем, что на данный момент больше половины клиентов которые к нам приходят это те кто либо заказывали у нас ранее либо их друзья (родственники).
+									На сайте а так же на Яндекс и на Гугл много настоящих положительных отзывов о нашей работе.</p>
+							</div>
+						</div>
+					</div>
+					<div class="about-us__block block-about-us">
+						<div class="block-about-us__column block-about-us__column_text">
+							<h5 class="about-us__label">Сочетание цены и качества</h5>
+							<div class="block-about-us__text">
+								<p>На данный момент рынок мебели в России хорошо развит и количество фабрик растет с каждым годом. Из этого огромного количества производителей за 5 лет нашей работы мы постарались собрать у себя
+									в ассортименте тех у которых сочетание цены и качества будет самым хорошим.</p>
+							</div>
+						</div>
+						<div class="block-about-us__column">
+							<div class="block-about-us__image block-about-us__image_decor2">
+								<div class="block-about-us__image-item block-about-us__image-item_2">
+									<picture><source srcset="img/about-us/02.webp" type="image/webp"><img src="img/about-us/02.jpg" alt="about-us"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__our-services our-services">
+				<div class="our-services__container">
+					<div class="our-services__image">
+						<picture><source srcset="img/about-us/bright-kitchen-with-kitchen-island.webp" type="image/webp"><img src="img/about-us/bright-kitchen-with-kitchen-island.jpg" alt="bright kitchen with kitchen island"></picture>
+					</div>
+					<div class="our-services__content">
+						<h5 class="our-services__title">На ряду с продажей мебели мы предлагаем ряд услуг:</h5>
+						<div class="our-services__text">
+							<p>Составить дизайн проект кухни по Вашим размерам - это бесплатная услуга и предоставляется всем желающим даже в телефонном режиме.</p>
+							<p>Замер помещения (для кухонь) - это платная услуга стоимость уточняется у менеджеров. Перед тем как делать замер желательно определиться с моделью кухни, сделать вместе с нашими менеджерами предварительный проект и просчет, после чего уже вызывать замерщика.</p>
+							<p>Сборка мебели. У нас в штате есть проверенные квалифицированные сборщики за работу которых мы несем ответственность. Услуга сборки так же является платной, ознакомиться с расценками на сборку Вы можете на странице: Сборка</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__ourbenefits ourbenefits">
+				<div class="ourbenefits__container">
+					<h5 class="ourbenefits__title section-title">НАШИ ПРЕИМУЩЕСТВА</h5>
+					<div class="ourbenefits__items ourbenefits__items_about-us">
+						<div class="ourbenefits__item">
+							<span class="ourbenefits__icon _icon-location"></span>
+							<div class="ourbenefits__body">
+								<div class="ourbenefits__label">Удобное расположение магазина</div>
+							</div>
+						</div>
+						<div class="ourbenefits__item">
+							<span class="ourbenefits__icon _icon-deliver"></span>
+							<div class="ourbenefits__body">
+								<div class="ourbenefits__label ">Быстрая доставка</div>
+							</div>
+						</div>
+						<div class="ourbenefits__item">
+							<span class="ourbenefits__icon _icon-low-price"></span>
+							<div class="ourbenefits__body">
+								<div class="ourbenefits__label">Низкие цены</div>
+								<div class="ourbenefits__text">
+									<p>Если найдете дешевле - сделаем скидку</p>
+								</div>
+							</div>
+						</div>
+						<div class="ourbenefits__item">
+							<span class="ourbenefits__icon _icon-warranty"></span>
+							<div class="ourbenefits__body">
+								<div class="ourbenefits__label">Гарантия качества</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__ask-questions ask-questions">
+				<div class="ask-questions__container">
+					<div class="ask-questions__content">
+						<h4 class="ask-questions__title section-title">ОСТАЛИСЬ ВОПРОСЫ?</h4>
+						<div class="ask-questions__text">
+							<p>Расскажем, подскажем, поможем подобрать лучшее с учетом любого бюджета!</p>
+						</div>
+						<form action="" class="ask-questions__form">
+							<div class="ask-questions__row">
+								<input type="text" autocomplete="off" class="ask-questions__input form-input" data-error="Это поле обязательно для заполнения" data-required name="form[]" placeholder="Имя*">
+							</div>
+							<div class="ask-questions__row">
+								<input type="text" autocomplete="off" class="ask-questions__input form-input" data-error="Это поле обязательно для заполнения" data-required="phone" name="form[]" placeholder="Телефон*">
+							</div>
+							<div class="ask-questions__row ask-questions__row_checkbox">
+								<input type="checkbox" name="check" id="check" class="ask-questions__checkbox">
+								<label for="check" class="ask-questions__label form-label">Нажимая на кнопку “отправить”, вы даете согласие на обработку ваших персональных данных.</label>
+							</div>
+							<button type="submit" class="ask-questions__btn button button_bg">ОТПРАВИТЬ</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="page__socials socials">
+				<div class="socials__container">
+					<div class="socials__title section-title">МЫ В INSTAGRAM</div>
+					<div class="socials__items">
+						<div class="socials__item">
+							<div class="socials__image">
+								<picture><source srcset="img/socials/01.webp" type="image/webp"><img src="img/socials/01.jpg" alt="We in instagram"></picture>
+							</div>
+						</div>
+						<div class="socials__item">
+							<div class="socials__image">
+								<picture><source srcset="img/socials/02.webp" type="image/webp"><img src="img/socials/02.jpg" alt="We in instagram"></picture>
+							</div>
+						</div>
+						<div class="socials__item">
+							<div class="socials__image">
+								<picture><source srcset="img/socials/03.webp" type="image/webp"><img src="img/socials/03.jpg" alt="We in instagram"></picture>
+							</div>
+						</div>
+						<div class="socials__item">
+							<div class="socials__image">
+								<picture><source srcset="img/socials/04.webp" type="image/webp"><img src="img/socials/04.jpg" alt="We in instagram"></picture>
+							</div>
+						</div>
+						<div class="socials__item">
+							<div class="socials__image">
+								<picture><source srcset="img/socials/05.webp" type="image/webp"><img src="img/socials/05.jpg" alt="We in instagram"></picture>
+							</div>
+						</div>
+						<div class="socials__item">
+							<div class="socials__image">
+								<picture><source srcset="img/socials/06.webp" type="image/webp"><img src="img/socials/06.jpg" alt="We in instagram"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__info info-footer">
+			<a href="" class="footer__logo">
+				<picture><source srcset="img/footer_logo.webp" type="image/webp"><img src="img/footer_logo.png" alt="Logo of site Arko furniture" /></picture>
+			</a>
+			<a href="tel:89615259191" class="info-footer__phone _icon-phone">8-961-525-91-91</a>
+			<button type="button" class="info-footer__ordercall">
+				Заказать звонок
+			</button>
+			<div class="info-footer__body">
+				<li class="info-footer__item">
+					<div class="info-footer__label">Время работы:</div>
+					<div class="info-footer__value">с 10:00 до 19:00</div>
+
+				</li>
+				<li class="info-footer__item">
+					<div class="info-footer__label">Адрес:</div>
+					<div class="info-footer__value">Краснодар, ул. Московская 144 корп. - 1</div>
+
+				</li>
+				<li class="info-footer__item">
+					<div class="info-footer__label">Почта:</div>
+					<div class="info-footer__value">
+						<a href="mailto:mebelarko@mail.ru" class="info-footer__link">mebelarko@mail.ru</a>
+					</div>
+
+				</li>
+			</div>
+			<ul class="footer__socials footer-social">
+				<li class="footer-social__item">
+					<div class="footer-social__label">Мы в Инстаграме</div>
+					<a href="" class="footer-social__link">
+						<picture><source srcset="img/footer_socials/instagram.webp" type="image/webp"><img src="img/footer_socials/instagram.png" alt="" /></picture>
+					</a>
+				</li>
+			</ul>
+			<div class="footer__copyright">© Все права защищены</div>
+		</div>
+		<div class="footer__categories footer-categories" data-da=".footer__info,600,4">
+			<nav class="footer-categories__body">
+				<ul class="footer-categories__list">
+					<li class="footer-categories__item">
+						<a href="" class="footer-categories__link">Кухни</a>
+						<ul class="footer-categories__submenu submenu-footer">
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Модульные кухни</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Готовые комплекты</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Маленькие кухни</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Угловые кухни</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Кухонные уголки</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Столы кухонные</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Стулья для кухни</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Комплектующие</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-categories__item">
+						<a href="" class="footer-categories__link">Гостинные</a>
+						<ul class="footer-categories__submenu submenu-footer">
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Модульные</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Журнальные столы</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Полки</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Тумбы под ТВ</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Шкафы</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Стеллажи</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-categories__item">
+						<a href="" class="footer-categories__link">Диваны</a>
+						<ul class="footer-categories__submenu submenu-footer">
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Прямые</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Угловые</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">На металлокаркасе</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Кресла</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-categories__item">
+						<a href="" class="footer-categories__link">Детские</a>
+						<ul class="footer-categories__submenu submenu-footer">
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Кровати</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Полки</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Столы</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Тумбы</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Шкафы</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Комоды</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-categories__item">
+						<a href="" class="footer-categories__link">Прихожие</a>
+						<ul class="footer-categories__submenu submenu-footer">
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Модульные</a>
+							</li>
+							<li class="submenu-footer__item">
+								<a href="" class="submenu-footer__link">Обувницы</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-categories__item">
+						<a href="" class="footer-categories__link">Шкафы-купе</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="footer__menu footer-menu">
+				<ul class="footer-menu__list">
+					<li class="footer-menu__item"><a href="" class="footer-menu__link">Контакты</a></li>
+					<li class="footer-menu__item"><a href="" class="footer-menu__link">Доставка и оплата</a></li>
+					<li class="footer-menu__item"><a href="" class="footer-menu__link">Сборка</a></li>
+					<li class="footer-menu__item"><a href="" class="footer-menu__link">Гарантии</a></li>
+					<li class="footer-menu__item"><a href="" class="footer-menu__link">Акции</a></li>
+					<li class="footer-menu__item"><a href="" class="footer-menu__link">Наши работы</a></li>
+					<li class="footer-menu__item"><a href="" class="footer-menu__link">Политика конфиденциальности</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</footer>
+	</div>
+	<div id="popup" class="popup">
+	<div class="popup__body">
+		<div class="popup__content popup__content_form">
+			<a href="#" class="popup__close close-popup"></a>
+			<form action="#" method="get" class="popup-form form">
+				<h3 class="popup-form__title section-title">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</h3>
+				<div class="popup-form__row">
+					<label for="name" class="popup-form__label form-label">Имя*</label>
+					<input id="name" type="text" data-error="Это поле обязательно для заполнения" data-required class="popup-form__input form-input" name="name" placeholder="Иван">
+				</div>
+				<div class="popup-form__row">
+					<label for="phone" class="popup-form__label form-label">Телефон*</label>
+					<input id="phone" type="tel" data-error="Это поле обязательно для заполнения" data-required="phone" class="popup-form__input form-input" name="phone" placeholder="+7 (000) 000 00 00">
+				</div>
+				<div class="popup-form__text">* - поля, обязательные для заполнения</div>
+				<button type="submit" class="popup-form__btn button button_bg">ОТПРАВИТЬ ЗАЯВКУ</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="login" class="popup">
+	<div class="popup__body">
+		<div class="popup__content popup__content_form">
+			<a href="#" class="popup__close close-popup"></a>
+			<form action="#" method="get" class="popup-form form">
+				<h3 class="popup-form__title popup-form__title_cnt section-title">ВХОД</h3>
+				<div class="popup-form__row">
+					<label for="email" class="popup-form__label form-label">Телефон*</label>
+					<input id="email" type="tel" autocomplete="off" class="popup-form__input form-input" data-error="Это поле обязательно для заполнения" data-required="phone" name="form[]" placeholder="+7 (000) 000 00 00">
+				</div>
+				<div class="popup-form__row">
+					<label for="password" class="popup-form__label form-label">Пароль*</label>
+					<div class="popup-form__input-password">
+						<input id="password" type="password" autocomplete="off" class="popup-form__input form-input" data-error="Please enter at least 8 characters" data-required="min-length:8" name="password" placeholder="**********">
+						<button type="button" class="popup-form__input-show"></button>
+					</div>
+				</div>
+				<a href="#" class="popup-form__link">Забыли пароль?</a>
+				<div class="popup-form__row popup-form__row_actions">
+					<div class="popup-form__actions actions-popup">
+						<span class="actions-popup__label">Авторизоваться через</span>
+						<a href="#" class="actions-popup__link actions-popup__link_google"></a>
+						<a href="#" class="actions-popup__link actions-popup__link_facebook"></a>
+					</div>
+				</div>
+				<button type="submit" class="popup-form__btn popup-form__btn_fw button button_bg">ВОЙТИ</button>
+			</form>
+		</div>
+	</div>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221210150038"></script>
+	<script src="js/app.min.js?_v=20221210150038"></script>
+</body>
+
+</html>
